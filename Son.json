@@ -1,6 +1,6 @@
 {
-  "name": "Konata Blue-Pink",
-  "description": "Custom Theme with Primary #657DFF & Accent #AF979B",
+  "name": "Konata Blue-Pink Fixed",
+  "description": "Theme with background overlay & correct colors",
   "authors": [
     {
       "name": "mango",
@@ -8,65 +8,80 @@
     }
   ],
   "semanticColors": {
-    "ANDROID_RIPPLE": [
-      "#657DFF40"
+    "BACKGROUND_PRIMARY": [
+      "#00000080"
+    ],
+    "BACKGROUND_SECONDARY": [
+      "#000000A0"
+    ],
+    "BACKGROUND_SECONDARY_ALT": [
+      "#000000C0"
+    ],
+    "BACKGROUND_TERTIARY": [
+      "#000000E0"
     ],
     "BACKGROUND_ACCENT": [
       "#657DFF"
     ],
+    "BACKGROUND_FLOATING": [
+      "#121212E0"
+    ],
     "BACKGROUND_MOBILE_PRIMARY": [
-      "#00000000"
-    ],
-    "BACKGROUND_MOBILE_SECONDARY": [
-      "#00000040"
-    ],
-    "BACKGROUND_PRIMARY": [
-      "#00000000"
-    ],
-    "BACKGROUND_SECONDARY": [
-      "#00000040"
-    ],
-    "BACKGROUND_SECONDARY_ALT": [
-      "#00000060"
-    ],
-    "BACKGROUND_TERTIARY": [
       "#00000080"
     ],
-    "BACKGROUND_MODIFIER_ACTIVE": [
-      "#657DFF40"
+    "BACKGROUND_MOBILE_SECONDARY": [
+      "#000000A0"
     ],
     "BACKGROUND_MODIFIER_ACCENT": [
       "#AF979B40"
     ],
     "BACKGROUND_MODIFIER_SELECTED": [
-      "#657DFF50"
-    ],
-    "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
-      "#AF979B40"
-    ],
-    "REDESIGN_BUTTON_TERTIARY_BACKGROUND": [
-      "#AF979B30"
-    ],
-    "REDESIGN_INPUT_CONTROL_ACTIVE_BG": [
-      "#657DFF30"
-    ],
-    "REDESIGN_INPUT_CONTROL_SELECTED": [
-      "#657DFF"
-    ],
-    "BG_BASE_TERTIARY": [
-      "#00000080"
-    ],
-    "BACKGROUND_FLOATING": [
-      "#000000C0"
-    ],
-    "BG_MOD_STRONG": [
       "#657DFF40"
     ],
-    "SCROLLBAR_AUTO_THUMB": [
+    "CHAT_BACKGROUND": [
+      "#00000080"
+    ],
+    "DIVIDER_STRONG": [
       "#657DFF80"
     ],
-    "BG_BACKDROP": [
-      "#00000073"
+    "DIVIDER_SUBTLE": [
+      "#AF979B40"
+    ],
+    "BORDER_SUBTLE": [
+      "#657DFF40"
+    ],
+    "SPINE_DEFAULT": [
+      "#657DFF"
+    ],
+    "STATUS_DANGER": [
+      "#FF6161"
+    ],
+    "STATUS_DND": [
+      "#FF6161"
+    ],
+    "STATUS_IDLE": [
+      "#FFBC5B"
+    ],
+    "STATUS_OFFLINE": [
+      "#7F7F7F"
+    ],
+    "STATUS_ONLINE": [
+      "#48BC46"
+    ],
+    "TEXT_BRAND": [
+      "#657DFF"
+    ],
+    "TEXT_LINK": [
+      "#657DFF"
+    ],
+    "TEXT_LINK_LOW_SATURATION": [
+      "#AF979B"
+    ],
+    "TEXT_LOW_CONTRAST": [
+      "#E0E0E0"
+    ],
+    "TEXT_MUTED": [
+      "#CCCCCC"
     ],
     "TEXT_NORMAL": [
       "#FFFFFF"
@@ -77,11 +92,38 @@
     "TEXT_SECONDARY": [
       "#AF979B"
     ],
-    "TEXT_BRAND": [
+    "TOAST_BG": [
+      "#121212E0"
+    ],
+    "TYPING_INDICATOR_BG": [
+      "#657DFF40"
+    ],
+    "WHITE": [
+      "#FFFFFF"
+    ],
+    "SCROLLBAR_THIN_THUMB": [
+      "#657DFF80"
+    ],
+    "SCROLLBAR_AUTO_THUMB": [
+      "#657DFF80"
+    ],
+    "REDESIGN_BUTTON_TERTIARY_BACKGROUND": [
+      "#AF979B40"
+    ],
+    "REDESIGN_CHAT_INPUT_BACKGROUND": [
+      "#00000080"
+    ],
+    "REDESIGN_INPUT_CONTROL_SELECTED": [
       "#657DFF"
     ],
-    "TEXT_LINK": [
+    "INTERACTIVE_MUTED": [
+      "#AF979B"
+    ],
+    "INTERACTIVE_ACTIVE": [
       "#657DFF"
+    ],
+    "CHAT_INPUT_CONTAINER_BACKGROUND": [
+      "#00000080"
     ],
     "MENTION_BADGE": [
       "#657DFF"
@@ -91,26 +133,21 @@
     ]
   },
   "rawColors": {
-    "PRIMARY_600": "#000000",
-    "PRIMARY_630": "#12111b",
-    "PRIMARY_645": "#000000",
-    "PRIMARY_660": "#000000",
-    "PRIMARY_700": "#000000",
-    "PRIMARY_800": "#657DFF",
+    "BLACK_500": "#00000080",
     "BRAND_260": "#657DFF",
     "BRAND_360": "#657DFF",
-    "BRAND_400": "#657DFF",
-    "BRAND_460": "#657DFF",
     "BRAND_500": "#657DFF",
     "BRAND_560": "#AF979B",
-    "TEXT_LINK": "#657DFF",
-    "TEXT_NORMAL": "#FFFFFF",
-    "WHITE_500": "#FFFFFF"
+    "PRIMARY_600": "#000000",
+    "PRIMARY_630": "#12111b",
+    "PRIMARY_660": "#000000",
+    "PRIMARY_700": "#000000",
+    "PRIMARY_800": "#657DFF"
   },
   "background": {
-    "blur": 0.5,
+    "blur": 0.3,
     "url": "https://raw.githubusercontent.com/Ditmemaybe/10001110100010111010/refs/heads/main/Izumi.Konata.600.4335280.jpg",
-    "alpha": 0.8,
+    "alpha": 1,
     "size": "cover",
     "position": "center"
   },
