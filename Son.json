@@ -1,6 +1,6 @@
 {
-  "name": "Konata Blue-Pink Fixed",
-  "description": "Theme with background overlay & correct colors",
+  "name": "Konata White & Blur Theme",
+  "description": "Full White Text and High Blur Background",
   "authors": [
     {
       "name": "mango",
@@ -9,49 +9,49 @@
   ],
   "semanticColors": {
     "BACKGROUND_PRIMARY": [
-      "#00000080"
+      "#00000000"
     ],
     "BACKGROUND_SECONDARY": [
-      "#000000A0"
+      "#00000060"
     ],
     "BACKGROUND_SECONDARY_ALT": [
-      "#000000C0"
+      "#00000080"
     ],
     "BACKGROUND_TERTIARY": [
-      "#000000E0"
-    ],
-    "BACKGROUND_ACCENT": [
-      "#657DFF"
-    ],
-    "BACKGROUND_FLOATING": [
-      "#121212E0"
-    ],
-    "BACKGROUND_MOBILE_PRIMARY": [
-      "#00000080"
-    ],
-    "BACKGROUND_MOBILE_SECONDARY": [
       "#000000A0"
     ],
+    "BACKGROUND_ACCENT": [
+      "#FFFFFF"
+    ],
+    "BACKGROUND_FLOATING": [
+      "#000000D0"
+    ],
+    "BACKGROUND_MOBILE_PRIMARY": [
+      "#00000000"
+    ],
+    "BACKGROUND_MOBILE_SECONDARY": [
+      "#00000060"
+    ],
     "BACKGROUND_MODIFIER_ACCENT": [
-      "#AF979B40"
+      "#FFFFFF30"
     ],
     "BACKGROUND_MODIFIER_SELECTED": [
-      "#657DFF40"
+      "#FFFFFF40"
     ],
     "CHAT_BACKGROUND": [
-      "#00000080"
+      "#00000000"
     ],
     "DIVIDER_STRONG": [
-      "#657DFF80"
+      "#FFFFFF60"
     ],
     "DIVIDER_SUBTLE": [
-      "#AF979B40"
+      "#FFFFFF30"
     ],
     "BORDER_SUBTLE": [
-      "#657DFF40"
+      "#FFFFFF30"
     ],
     "SPINE_DEFAULT": [
-      "#657DFF"
+      "#FFFFFF"
     ],
     "STATUS_DANGER": [
       "#FF6161"
@@ -69,19 +69,19 @@
       "#48BC46"
     ],
     "TEXT_BRAND": [
-      "#657DFF"
+      "#FFFFFF"
     ],
     "TEXT_LINK": [
-      "#657DFF"
+      "#FFFFFF"
     ],
     "TEXT_LINK_LOW_SATURATION": [
-      "#AF979B"
+      "#FFFFFF"
     ],
     "TEXT_LOW_CONTRAST": [
-      "#E0E0E0"
+      "#FFFFFF"
     ],
     "TEXT_MUTED": [
-      "#CCCCCC"
+      "#E0E0E0"
     ],
     "TEXT_NORMAL": [
       "#FFFFFF"
@@ -90,74 +90,74 @@
       "#FFFFFF"
     ],
     "TEXT_SECONDARY": [
-      "#AF979B"
-    ],
-    "TOAST_BG": [
-      "#121212E0"
-    ],
-    "TYPING_INDICATOR_BG": [
-      "#657DFF40"
+      "#FFFFFF"
     ],
     "WHITE": [
       "#FFFFFF"
     ],
     "SCROLLBAR_THIN_THUMB": [
-      "#657DFF80"
+      "#FFFFFF80"
     ],
     "SCROLLBAR_AUTO_THUMB": [
-      "#657DFF80"
+      "#FFFFFF80"
     ],
     "REDESIGN_BUTTON_TERTIARY_BACKGROUND": [
-      "#AF979B40"
+      "#FFFFFF30"
     ],
     "REDESIGN_CHAT_INPUT_BACKGROUND": [
-      "#00000080"
+      "#00000060"
     ],
     "REDESIGN_INPUT_CONTROL_SELECTED": [
-      "#657DFF"
+      "#FFFFFF"
     ],
     "INTERACTIVE_MUTED": [
-      "#AF979B"
+      "#CCCCCC"
     ],
     "INTERACTIVE_ACTIVE": [
-      "#657DFF"
+      "#FFFFFF"
+    ],
+    "INTERACTIVE_NORMAL": [
+      "#FFFFFF"
     ],
     "CHAT_INPUT_CONTAINER_BACKGROUND": [
-      "#00000080"
+      "#00000060"
     ],
     "MENTION_BADGE": [
-      "#657DFF"
+      "#FFFFFF"
     ],
     "REDESIGN_MENTION_BADGE": [
-      "#657DFF"
+      "#FFFFFF"
     ]
   },
   "rawColors": {
-    "BLACK_500": "#00000080",
-    "BRAND_260": "#657DFF",
-    "BRAND_360": "#657DFF",
-    "BRAND_500": "#657DFF",
-    "BRAND_560": "#AF979B",
+    "BLACK_500": "#00000060",
+    "BRAND_260": "#FFFFFF",
+    "BRAND_360": "#FFFFFF",
+    "BRAND_500": "#FFFFFF",
+    "BRAND_560": "#FFFFFF",
+    "PRIMARY_100": "#FFFFFF",
+    "PRIMARY_200": "#FFFFFF",
+    "PRIMARY_300": "#FFFFFF",
     "PRIMARY_600": "#000000",
     "PRIMARY_630": "#12111b",
     "PRIMARY_660": "#000000",
     "PRIMARY_700": "#000000",
-    "PRIMARY_800": "#657DFF"
+    "PRIMARY_800": "#FFFFFF"
   },
   "background": {
-    "blur": 0.3,
+    "blur": 8,
     "url": "https://raw.githubusercontent.com/Ditmemaybe/10001110100010111010/refs/heads/main/Izumi.Konata.600.4335280.jpg",
-    "alpha": 1,
+    "alpha": 0.6,
     "size": "cover",
     "position": "center"
   },
   "plus": {
     "version": 0,
     "iconpack": "solar",
-    "mentionLineColor": "#657DFF",
+    "mentionLineColor": "#FFFFFF",
     "icons": {
-      "ic_new_pins": "#657DFF",
-      "StatusStreaming": "#AF979B",
+      "ic_new_pins": "#FFFFFF",
+      "StatusStreaming": "#FFFFFF",
       "StatusMobileOnline": "#48BC46",
       "StatusIdle": "#FFBC5B",
       "StatusDND": "#FF6161",
